@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" class="light-mode">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thitiphat Kunrong</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="back" class="back-btn hidden" onclick="home()"><img src="images/back.png" alt=""></div>
+    <div class="nav-mobile">
+        <ul class="navbar-mobile">
+            <li><a href="https://github.com/Thitiphatx" target="_blank"><img class="nav-icon" src="images/github.svg" alt="github"></a></li>
+            <li><a href="https://www.frontendmentor.io/profile/F4PZ" target="_blank"><img class="nav-icon" src="images/frontend.png" alt="frontend"></a></li>
+            <li><a href="#" onclick="home()" class="nav-home">home</a></li>
+            <li><a href="https://www.freecodecamp.org/fcc6bd63334-dffe-49c5-abe0-414ea8982bc2" target="_blank"><img class="nav-icon" src="images/freecodecamp.png" alt="freecode"></a></li>
+            <li><a href="https://codepen.io/MaruXX/pens/public" target="_blank"><img class="nav-icon" src="images/codepen.svg" alt="codepen"></a></li>
+        </ul>
+    </div>
+    <nav>
+        <div class="navbox">
+            <ul class="home">
+                <li><a onclick="home()" href="#">Home</a></li>
+            </ul>
+            <ul class="navbar">
+                <li><a href="https://github.com/Thitiphatx" target="_blank">Github</a></li>
+                <li><a href="https://www.frontendmentor.io/profile/F4PZ" target="_blank">Frontend Mentor</a></li>
+                <li><a href="https://www.freecodecamp.org/fcc6bd63334-dffe-49c5-abe0-414ea8982bc2" target="_blank">Freecode Camp</a></li>
+                <li><a href="https://codepen.io/MaruXX/pens/public" target="_blank">Codepen</a></li>
+            </ul>
+            <ul class="code">
+                <li><a href="https://github.com/Thitiphatx/Portfolio" target="_blank">Coding</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <header>
+        <div class="title">
+            <h1 class="name">Thitiphat Kunrong</h1>
+            <div class="subtitle">ฐิติภัทร ขุนรอง</div>
+        </div>
+    </header>
+    <main>
+        <!-- Home page -->
+        <div class="homepage" id="home">
+            <div class="panel-right">
+                <div class="panel-w panel-1" onclick="port()"><h1 class="panel-title">Portfolio</h1><a class="panel-btn" href="#">See more</a></div>
+                <div class="panel-l panel-2" onclick="contact()"><h1 class="panel-title">Contact</h1><a class="panel-btn" href="#">See more</a></div>
+                <div class="panel-l panel-3" onclick="about()"><h1 class="panel-title">About</h1><a class="panel-btn" href="#">See more</a></div>
+            </div>
+        </div>
+        <!-- Portfolio page -->
+        <div class="portfolio hidden" id="portfolio">
+            <div class="panel-left">
+                <div class="panel-w panel-pw" style="background-image:url(images/rps-game.png)">
+                    <h1 class="panel-title">เกมเป่ายิ้งฉุบ</h1>
+                    <a class="panel-btn" href="https://www.frontendmentor.io/solutions/rockpaperscissorsgame-ljKAM0jHF">See more</a>
+                </div>
+                <div class="panel-l panel-pw" style="background-image: url(images/tip-cal.png)">
+                    <h1 class="panel-title">เครื่องคิดเลขทิป</h1>
+                    <a class="panel-btn" href="https://www.frontendmentor.io/solutions/tip-calculator-K0xSMafZb">See more</a>
+                </div>
+                <div class="panel-l panel-pw" style="background-image: url(images/theme-switch.png)">
+                    <h1 class="panel-title">สวิตช์เปลี่ยนทีม</h1>
+                    <a class="panel-btn" href="https://www.frontendmentor.io/solutions/theme-switcher-2SKbVFAV6">See more</a>
+                </div>
+                <div class="panel-w panel-pw" style="background-image: url(images/order-forms.png)">
+                    <h1 class="panel-title">เว็บไซต์สั่งงาน</h1>
+                    <a class="panel-btn" href="https://maru-designs.blogspot.com/">See more</a>
+                </div>
+            </div>
+            <div class="panel-right">
+                <div class="panel-l panel-pw" style="background-image: url(images/order-sum.png);">
+                    <h1 class="panel-title">การ์ดสรุปคำสั่งซื้อ</h1>
+                    <a class="panel-btn" href="https://www.frontendmentor.io/solutions/order-summary-card--qaYNhMDx">See more</a>
+                </div>
+                <div class="panel-l panel-pw" style="background-image: url(images/nft-card.png)">
+                    <h1 class="panel-title">การ์ดแสดง NFT</h1>
+                    <a class="panel-btn" href="https://www.frontendmentor.io/solutions/nft-preview-card-HIPhYcgA5">See more</a>
+                </div>
+                <div class="panel-w panel-pw" style="background-image: url(images/QnA-accordion.png)">
+                    <h1 class="panel-title">แถบแสดง Q&A</h1>
+                    <a class="panel-btn" href="https://www.frontendmentor.io/solutions/faq-accordion-card-JG2rAaHG3">See more</a>
+                </div>
+                <div class="panel-l panel-pw" style="background-image: url(images/order-sum.png)">
+                    <h1 class="panel-title">การ์ดสรุปคำสั่งซื้อ</h1>
+                    <a class="panel-btn" href="#">See more</a>
+                </div>
+                <div class="panel-l panel-pw" style="background-image: url(images/nft-card.png)">
+                    <h1 class="panel-title">การ์ดแสดง NFT</h1>
+                    <a class="panel-btn" href="#">See more</a>
+                </div>
+            </div>
+        </div>
+        <!-- Contact page -->
+        <div class="contact hidden" id="contact">
+                <div class="panel-w panel-info">
+                    <div class="contact-bar"><img src="images/mail.png" alt=""><h2 class="text-contact">thitiphat6391@gmail.com</h2></div>
+                    <div class="contact-bar"><img src="images/facebook.svg" alt=""><h2 class="text-contact">Thitiphat Kunrong</h2></div>
+                    <div class="contact-bar"><img src="images/discord.svg" alt=""><h2 class="text-contact">Maru.#3400</h2></div>
+                </div>
+                <div class="panel-w panel-form">
+                    <h1 class="contact-head">Contact me</h1>
+                    <form class="contact-form" action="mailto:thitiphat6391@gmail.com" method="post">
+                        <input type="text" name="name" placeholder="Name">
+                        <input type="email" name="from" placeholder="E-mail">
+                        <input type="text" name="subject" placeholder="Subject">
+                        <textarea name="msg" placeholder="Your message"></textarea>
+                        <input class="submit" type="submit" value="Send Message">
+                    </form>
+                </div>
+        </div>
+        <!-- About page -->
+        <div class="about hidden" id="about">
+                <div class="panel-l profile"></div>
+                <div class="panel-w">
+                    <p class="text-about">สวัสดีครับ ผมแชมป์ สนใจในเทคโนโลยีคอมพิวเตอร์ ผมรู้สึกชอบในสิ่งที่เป็นอัตโนมัติต่างๆ สนุกที่ได้เปลี่ยนโค๊ดออกมาเป็นโปรแกรมตามที่คิด และชอบที่จะเรียนรู้สิ่งใหม่ๆที่จะมาพัฒนาตัวเองให้ดีขึ้นครับ ผมถนัดทางด้าน Frontend ใช้ HTML CSS JS ครับ</p>
+                </div>
+        </div>
+        <script src="js/scripts.js"></script>
+    </main>
+    <footer>
+        Designs & Code by <a href="#">Thitiphat Kunrong</a>
+    </footer>
+</body>
+</html>
